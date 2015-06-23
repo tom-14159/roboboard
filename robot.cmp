@@ -1,0 +1,108 @@
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Ut 23. jún 2015, 12:59:34 CEST
+
+BeginCmp
+TimeStamp = /5589188D;
+Reference = C1;
+ValeurCmp = 22p;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /55891897;
+Reference = C2;
+ValeurCmp = 22p;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /55891E75;
+Reference = GPIO1;
+ValeurCmp = CONN_5;
+IdModule  = PIN_ARRAY_5x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5589159C;
+Reference = IC1;
+ValeurCmp = ATTINY2313-P;
+IdModule  = DIP-20__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /55891B6E;
+Reference = M1;
+ValeurCmp = CONN_5;
+IdModule  = SIL-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /55891B79;
+Reference = M2;
+ValeurCmp = CONN_5;
+IdModule  = SIL-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /55891C72;
+Reference = PWR1;
+ValeurCmp = CONN_5X2;
+IdModule  = PIN_ARRAY_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /55893277;
+Reference = R1;
+ValeurCmp = 1K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /558932DA;
+Reference = R2;
+ValeurCmp = 1K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /558932E1;
+Reference = R3;
+ValeurCmp = 1K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5589333B;
+Reference = R4;
+ValeurCmp = 1K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /55893BB7;
+Reference = RPi1;
+ValeurCmp = CONN_13X2;
+IdModule  = pin_array_13x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /558915AF;
+Reference = U1;
+ValeurCmp = ULN2003A;
+IdModule  = DIP-16__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /558915B2;
+Reference = U2;
+ValeurCmp = ULN2003A;
+IdModule  = DIP-16__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /5589186C;
+Reference = XTAL1;
+ValeurCmp = 16MHz;
+IdModule  = HC-18UV;
+EndCmp
+
+EndListe

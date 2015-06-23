@@ -1,0 +1,311 @@
+# EESchema Netlist Version 1.1 created  Ut 23. jún 2015, 14:24:30 CEST
+(
+ ( /55893BB7 $noname  RPi1 CONN_13X2 {Lib=CONN_13X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 N-000015 )
+  (    8 ? )
+  (    9 N-000039 )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 N-000006 )
+  (   17 ? )
+  (   18 N-000055 )
+  (   19 ? )
+  (   20 N-000004 )
+  (   21 ? )
+  (   22 N-000042 )
+  (   23 ? )
+  (   24 N-000059 )
+  (   25 ? )
+  (   26 GND )
+ )
+ ( /5589333B $noname  R4 1K {Lib=R}
+  (    1 N-000007 )
+  (    2 N-000006 )
+ )
+ ( /558932E1 $noname  R3 1K {Lib=R}
+  (    1 N-000012 )
+  (    2 N-000059 )
+ )
+ ( /558932DA $noname  R2 1K {Lib=R}
+  (    1 N-000005 )
+  (    2 N-000042 )
+ )
+ ( /55893277 $noname  R1 1K {Lib=R}
+  (    1 N-000062 )
+  (    2 N-000004 )
+ )
+ ( /55891E75 $noname  GPIO1 CONN_5 {Lib=CONN_5}
+  (    1 N-000003 )
+  (    2 N-000026 )
+  (    3 N-000002 )
+  (    4 N-000025 )
+  (    5 N-000001 )
+ )
+ ( /55891C72 $noname  PWR1 CONN_5X2 {Lib=CONN_5X2}
+  (    1 VCC )
+  (    2 GND )
+  (    3 VCC )
+  (    4 GND )
+  (    5 VCC )
+  (    6 GND )
+  (    7 VCC )
+  (    8 GND )
+  (    9 VCC )
+  (   10 GND )
+ )
+ ( /55891B79 $noname  M2 CONN_5 {Lib=CONN_5}
+  (    1 N-000011 )
+  (    2 N-000033 )
+  (    3 N-000060 )
+  (    4 N-000010 )
+  (    5 VCC )
+ )
+ ( /55891B6E $noname  M1 CONN_5 {Lib=CONN_5}
+  (    1 N-000009 )
+  (    2 N-000013 )
+  (    3 N-000031 )
+  (    4 N-000016 )
+  (    5 VCC )
+ )
+ ( /55891897 $noname  C2 22p {Lib=C}
+  (    1 N-000028 )
+  (    2 GND )
+ )
+ ( /5589188D $noname  C1 22p {Lib=C}
+  (    1 N-000029 )
+  (    2 GND )
+ )
+ ( /5589186C $noname  XTAL1 16MHz {Lib=CRYSTAL}
+  (    1 N-000029 )
+  (    2 N-000028 )
+ )
+ ( /558915B2 $noname  U2 ULN2003A {Lib=ULN2003A}
+  (    1 N-000023 )
+  (    2 N-000027 )
+  (    3 N-000024 )
+  (    4 N-000030 )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 GND )
+  (    9 VCC )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 N-000010 )
+  (   14 N-000060 )
+  (   15 N-000033 )
+  (   16 N-000011 )
+ )
+ ( /558915AF $noname  U1 ULN2003A {Lib=ULN2003A}
+  (    1 N-000012 )
+  (    2 N-000005 )
+  (    3 N-000062 )
+  (    4 N-000022 )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 GND )
+  (    9 VCC )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 N-000016 )
+  (   14 N-000031 )
+  (   15 N-000013 )
+  (   16 N-000009 )
+ )
+ ( /5589159C DIL20  IC1 ATTINY2313-P {Lib=ATTINY2313-P}
+  (    1 N-000007 )
+  (    2 N-000015 )
+  (    3 N-000039 )
+  (    4 N-000029 )
+  (    5 N-000028 )
+  (    6 N-000003 )
+  (    7 N-000026 )
+  (    8 N-000002 )
+  (    9 N-000025 )
+  (   10 GND )
+  (   11 N-000001 )
+  (   12 N-000030 )
+  (   13 N-000024 )
+  (   14 N-000027 )
+  (   15 N-000023 )
+  (   16 N-000022 )
+  (   17 N-000062 )
+  (   18 N-000005 )
+  (   19 N-000012 )
+  (   20 N-000055 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ GPIO1 5
+ IC1 11
+Net 2 "" ""
+ IC1 8
+ GPIO1 3
+Net 3 "" ""
+ IC1 6
+ GPIO1 1
+Net 4 "" ""
+ RPi1 20
+ R1 2
+Net 5 "" ""
+ U1 2
+ IC1 18
+ R2 1
+Net 6 "" ""
+ RPi1 16
+ R4 2
+Net 7 "" ""
+ R4 1
+ IC1 1
+Net 8 "GND" "GND"
+ C1 2
+ C2 2
+ PWR1 8
+ U2 8
+ IC1 10
+ PWR1 10
+ PWR1 6
+ PWR1 4
+ PWR1 2
+ U1 8
+ RPi1 26
+Net 9 "" ""
+ U1 16
+ M1 1
+Net 10 "" ""
+ U2 13
+ M2 4
+Net 11 "" ""
+ U2 16
+ M2 1
+Net 12 "" ""
+ U1 1
+ R3 1
+ IC1 19
+Net 13 "" ""
+ M1 2
+ U1 15
+Net 15 "" ""
+ IC1 2
+ RPi1 7
+Net 16 "" ""
+ U1 13
+ M1 4
+Net 22 "" ""
+ U1 4
+ IC1 16
+Net 23 "" ""
+ IC1 15
+ U2 1
+Net 24 "" ""
+ IC1 13
+ U2 3
+Net 25 "" ""
+ IC1 9
+ GPIO1 4
+Net 26 "" ""
+ GPIO1 2
+ IC1 7
+Net 27 "" ""
+ U2 2
+ IC1 14
+Net 28 "" ""
+ IC1 5
+ XTAL1 2
+ C2 1
+Net 29 "" ""
+ IC1 4
+ C1 1
+ XTAL1 1
+Net 30 "" ""
+ U2 4
+ IC1 12
+Net 31 "" ""
+ U1 14
+ M1 3
+Net 33 "" ""
+ U2 15
+ M2 2
+Net 39 "" ""
+ RPi1 9
+ IC1 3
+Net 42 "" ""
+ RPi1 22
+ R2 2
+Net 55 "" ""
+ IC1 20
+ RPi1 18
+Net 59 "" ""
+ R3 2
+ RPi1 24
+Net 60 "" ""
+ M2 3
+ U2 14
+Net 61 "VCC" "VCC"
+ PWR1 1
+ PWR1 5
+ PWR1 3
+ PWR1 7
+ PWR1 9
+ M2 5
+ M1 5
+ U1 9
+ U2 9
+Net 62 "" ""
+ U1 3
+ IC1 17
+ R1 1
+}
+#End
