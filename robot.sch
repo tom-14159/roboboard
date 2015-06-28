@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Ut 23. jún 2015, 14:24:20 CEST
+EESchema Schematic File Version 2  date Ut 23. jún 2015, 16:40:48 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -44,15 +44,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L CONN_13X2 RPi1
-U 1 1 55893BB7
-P 1200 2700
-F 0 "RPi1" H 1200 3400 60  0000 C CNN
-F 1 "CONN_13X2" V 1200 2700 50  0000 C CNN
-	1    1200 2700
-	1    0    0    1   
-$EndComp
+Connection ~ 6850 1800
+Wire Wire Line
+	6850 1650 6850 3500
 Wire Wire Line
 	1600 2600 1650 2600
 Connection ~ 6550 1800
@@ -73,10 +67,6 @@ Wire Wire Line
 	2650 1000 1900 1000
 Wire Wire Line
 	3150 1150 4000 1150
-Wire Wire Line
-	3200 1450 3200 1300
-Wire Wire Line
-	3200 1300 2100 1300
 Wire Wire Line
 	2650 850  1800 850 
 Wire Wire Line
@@ -121,8 +111,7 @@ Wire Wire Line
 	7100 2700 7100 2600
 Connection ~ 6850 2000
 Wire Wire Line
-	6100 3500 6850 3500
-Connection ~ 6850 1800
+	6850 3500 6100 3500
 Wire Wire Line
 	7400 3100 6400 3100
 Wire Wire Line
@@ -216,8 +205,6 @@ Wire Wire Line
 Wire Wire Line
 	4500 2000 3900 2000
 Wire Wire Line
-	1600 2500 2100 2500
-Wire Wire Line
 	1600 2300 1900 2300
 Connection ~ 4100 2000
 Wire Wire Line
@@ -252,12 +239,10 @@ Wire Wire Line
 Wire Wire Line
 	6500 3000 7400 3000
 Wire Wire Line
-	6850 3500 6850 1750
-Wire Wire Line
 	6850 3400 7400 3400
 Connection ~ 6850 3400
 Wire Wire Line
-	7400 2000 6850 2000
+	6850 2000 7400 2000
 Wire Wire Line
 	2500 2050 2350 2050
 Wire Wire Line
@@ -307,8 +292,6 @@ Wire Wire Line
 Wire Wire Line
 	4200 850  3150 850 
 Wire Wire Line
-	2100 2500 2100 1300
-Wire Wire Line
 	2000 1150 2650 1150
 Wire Wire Line
 	4100 1000 3150 1000
@@ -327,6 +310,30 @@ Connection ~ 6250 1800
 Connection ~ 6450 1800
 Wire Wire Line
 	6850 1800 6100 1800
+Wire Wire Line
+	1600 2500 2100 2500
+Wire Wire Line
+	2100 2500 2100 1450
+Wire Wire Line
+	2100 1450 3200 1450
+$Comp
+L VCC #PWR?
+U 1 1 55896FEA
+P 6850 1650
+F 0 "#PWR?" H 6850 1750 30  0001 C CNN
+F 1 "VCC" H 6850 1750 30  0000 C CNN
+	1    6850 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_13X2 RPi1
+U 1 1 55893BB7
+P 1200 2700
+F 0 "RPi1" H 1200 3400 60  0000 C CNN
+F 1 "CONN_13X2" V 1200 2700 50  0000 C CNN
+	1    1200 2700
+	-1   0    0    1   
+$EndComp
 $Comp
 L R R4
 U 1 1 5589333B
@@ -406,15 +413,6 @@ P 7800 1800
 F 0 "M1" V 7750 1800 50  0000 C CNN
 F 1 "CONN_5" V 7850 1800 50  0000 C CNN
 	1    7800 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR2
-U 1 1 55891A39
-P 6850 1750
-F 0 "#PWR2" H 6850 1850 30  0001 C CNN
-F 1 "VCC" H 6850 1850 30  0000 C CNN
-	1    6850 1750
 	1    0    0    -1  
 $EndComp
 $Comp
